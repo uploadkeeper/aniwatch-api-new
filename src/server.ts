@@ -13,7 +13,7 @@ import animeRouter from "./routes/index.js";
 
 config();
 const app: express.Application = express();
-const PORT: number = Number(process.env.PORT) || 4000;
+const PORT: number = Number(process.env.PORT) || 7000;
 
 app.use(morgan("dev"));
 app.use(corsConfig);
